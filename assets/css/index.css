@@ -1,0 +1,102 @@
+*, *::after, *::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #151515;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: inline-flex;
+    background: #0c0c0c;
+    width: 100%;
+    padding: 20px;
+}
+
+.title-normal {
+    font-size: 170%;
+}
+
+.version-normal {
+    color: #0051ff;
+    padding: 3px;
+}
+
+.dev-logs-title-normal {
+    display: flex;
+    justify-content: center;
+}
+
+.dev-logs-content-normal {
+    display: flex;
+    justify-content: center;
+}
+
+.dev-logs-note-normal {
+    background: #101010;
+    width: 40%;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.dev-logs-note-text-normal {
+    display: flex;
+    justify-content: center;
+}
+
+.dev-logs-note-content-normal {
+    display: flex;
+    justify-content: center;
+}
+
+.dev-logs-note-content-normal > .content > .dev-logs-note-content-item-normal {
+    font-size: 130%;
+    margin-bottom: 10px;
+}
+
+.dev-logs-note-content-item-type-fix-normal::before {
+    content: "FIX";
+    background: #000;
+    color: #fcba03;
+    padding: 3px 6px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.dev-logs-note-content-item-type-remove-normal::before {
+    content: "REM";
+    background: #000;
+    color: #eb4034;
+    padding: 3px 6px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.dev-logs-note-content-item-type-new-normal::before {
+    content: "ADD";
+    background: #000;
+    color: #4287f5;
+    padding: 3px 6px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.dev-logs-note-content-item-type-system-normal::before {
+    content: "SYS";
+    background: #000;
+    color: #4287f5;
+    padding: 3px 6px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.dev-logs-note-content-item-type-system-normal {
+    color: #4287f5;
+}
